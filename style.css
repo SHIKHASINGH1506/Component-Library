@@ -3,7 +3,7 @@
 :root{
     --primary-color: #80849E;
     --dark-grey:#474A62;
-
+    --light-grey:#F3F4F6;
 }
 
 body{
@@ -14,10 +14,9 @@ body{
 .container{
     padding: 0rem 1rem;
 }
-.center-container{
-    text-align: center;
-    margin: auto;
+.container-center{
     max-width: 600px;
+    margin: auto; 
 }
 
 /** links **/
@@ -83,3 +82,13 @@ body{
     color: var(--dark-grey);
     padding-top: 1rem;
 }
+
+/** sections **/
+.section h1{
+    text-align: center;
+    padding: 1rem;
+}
+.ow{
+    background-color: var(--light-grey);
+}
+
