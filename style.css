@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --primary-color: #80849E;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**Container**/
+.container{
+    padding: 0rem 1rem;
+}
+.center-container{
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+/** links **/
+.link{
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+.link-secondary{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color:  var(--primary-color);
+}
+
+.line-break{
+    margin: 2rem 0rem;
+}
+
+/** List **/
+.list-nobullets{
+    list-style-type: none;
+}
+.list-item-inline{
+    display: inline;
+    margin-right: 1rem;
+}
+
+/** nav **/
+.navigation{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .link{
+    color: white;
+}
+.nav-pills{
+    text-align: right;
+}
+.active{
+    font-weight: bold;
+}
