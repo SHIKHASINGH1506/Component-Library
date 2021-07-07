@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #80849E;
+    --dark-grey:#474A62;
+
 }
 
 body{
@@ -65,4 +67,19 @@ body{
 }
 .active{
     font-weight: bold;
+}
+
+/** header **/
+.heading{
+    padding: 1rem;
+}
+.heading .heading-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.heading .heading-text{
+    text-align: center;
+    color: var(--dark-grey);
+    padding-top: 1rem;
 }
