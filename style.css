@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root{
-    --primary-color: #80849E;
-    --dark-grey:#474A62;
+    --primary-color: #312E81;
+    --dark-grey:#6B7280;
     --light-grey:#F3F4F6;
+    --font-size: 1.44rem;
+    --brnad-font-size: 1.7rem;
 }
 
 body{
@@ -48,17 +50,19 @@ body{
 .list-item-inline{
     display: inline;
     margin-right: 1rem;
+    font-size: var(--font-size);
 }
 
 /** nav **/
 .navigation{
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: var(--primary-color);
     color: white;
+    border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: var(--brnad-font-size);
 }
 .navigation .link{
     color: white;
@@ -84,11 +88,17 @@ body{
     color: var(--dark-grey);
     padding-top: 1rem;
 }
+.heading-keywords{
+    color: var(--primary-color);
+}
 
 /** sections **/
+.section{
+    padding: 2rem;
+}
 .section h1{
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 .ow{
     background-color: var(--light-grey);
@@ -97,17 +107,24 @@ body{
 /** footer **/
 .footer{
     background-color: var(--primary-color);
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     color: white;
     text-align: center;
 }
 .footer-heading{
     font-weight: bold;
-    font-size: large;
+    font-size: 1.44rem;
+    padding-bottom: 1rem;
 }
-.footer .link{
-    color:white;
+.contact-div{
+    display: flex;
+    justify-content: space-around;
+    width:800px;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.4em;
 }
-.footer ul{
-    padding-inline-start: 0px;
+.link-conatct{
+    width:1.5em;
 }

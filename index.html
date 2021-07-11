@@ -1,140 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="style.css" rel="stylesheet" />
+    <title>Shikha portfolio</title>
+    <link rel='stylesheet'href="style.css" />
 </head>
-
 <body>
-    <h2>Shikha's component library</h2>
-    <p><b>Shikha</b> gonna attend neog.camp and is currently completing levelZero one weekend and assignment at a time.
-    </p>
-    <p>This is a component library created by her to better design each element.</p>
-    <p>After creating this library she is going to use the components in her <b>portfolio, blog and all projects </b>
-        created. This will ensure that all her projects have consistent <b>themeing and styling</b></p>
-
-    <hr class="line-break">
-
-    <h3>@typography</h3>
-    <h1>This is the biggest and most important heading out of all. h1</h1>
-    <h2>This is next second biggest heading h2</h2>
-    <p>This is normal text. This will auto fold based on the width. P</p>
-    <small> This is relatively smaller text. </small>
-
-    <hr class="line-break">
-
-    <h2>@containers</h2>
-    <h3>@fluid container</h3>
-    <div class="container fluid-container">This will take the entire width of the page with some margin.</div>
-
-    <h3>@center container</h3>
-    <div class="container container-center">This will occuping defined width and center content</div>
-
-    <hr class="line-break">
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="#">Primary Link</a>
-    <a class="link link-secondary" href="#">Secondary Link</a>
-
-    <hr class="line-break">
-
-    <h2>@lists</h2>
-    <h3>unorderd lists</h3>
-    <p>We have removed the bullets using css</p>
-    <ul class="list-nobullets">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>inline lists</h3>
-    <p>These items will take columns instead of rows</p>
-    <ul class="list-nobullets">
-        <li class="list-item-inline">Item one</li>
-        <li class="list-item-inline">Item two</li>
-        <li class="list-item-inline">Item three</li>
-    </ul>
-
-    <h3>reversed lists</h3>
-    <p>These items will in reverse order</p>
-    <ol reversed>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ol>
-
-    <hr class="line-break">
-
-    <h2>@nav</h2>
     <nav class="navigation">
-        <div class="nav-brand">Brand</div>
+        <div class="nav-brand">Shikha</div>
         <ul class="list-nobullets nav-pills">
             <li class="list-item-inline">
                 <a class="link active" href="#">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="#">Contact</a>
+                <a class="link" href="#">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="#">About Us</a>
+                <a class="link" href="#">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <h2>@header</h2>
-
     <header class="heading">
         <img class="heading-img" src="assets/images/react-headers.svg" />
-
-        <h1 class="heading-text">Heading inside the header</h1>
+        <h1 class="heading-text">Shikha the <span class="heading-keywords">Web Developer</span></h1>
     </header>
 
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>About Me</h1>
+            <p>I'm an enthusiatic student and a thriving full stack web developer skilled in HTML5, 
+                CSS3, JavaScript, NodeJS, React, Git and Web Hoisting
+            </p>
+        </div>
+    </section>
 
-    <hr class="line-break">
-
-    <h2>@section</h2>
     <section class="section">
         <div class="container container-center">
-            <h1>White Section</h1>
-            <p>If you are a complete beginner, web development can be challenging — we will hold your hand and provide
-                enough detail for you to feel comfortable and learn the topics properly. You should feel at home whether
-                you are a student learning web development (on your own or as part of a class), a teacher looking for
-                class materials, a hobbyist, or someone who just wants to understand more about how web technologies
-                work.</p>
+            <h1>Projects</h1>
+            <p>I believe in showcasing my skills through real time projects, as I've tried to implement
+                 everything learned so far
+            </p>
+            <a class="link link-primary" href="#">See Projects</a>
         </div>
     </section>
 
     <section class="section ow">
         <div class="container container-center">
-            <h1>Off-White Section</h1>
-            <p>The aim of this area of MDN is not to take you from "beginner" to "expert" but to take you from
-                "beginner" to "comfortable." From there, you should be able to start making your way, learning from the
-                rest of MDN, and other intermediate to advanced resources that assume a lot of previous knowledge.</p>
+            <h1>Blogs</h1>
+            <p>I like documenting my journey of learning, as it leaves me with the opportunity of in-depth
+               understanding of topics before I write, also, incresase my creativity to see things from my eye before pen down it.
+               Check some of my blogs here
+            </p>
+            <a class="link link-secondary" href="#">Read Blogs</a>
         </div>
     </section>
 
-
-    <hr class="line-break">
-
-    <h2>@footer</h2>
     <footer class="footer">
-        <div class="footer-heading">Header inside the footer</div>
-            <ul class="list-nobullets">
-                <li class="list-item-inline">
-                    <a class="link" href="#">github</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="#">linkedin</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="#">twitter</a>
-                </li>
-            </ul>
+        <div class="footer-heading">Contact Me</div>
+            <div class="contact-div">
+                    <a class="link" href="mailto:shikhakumarisingh9715@gmail.com">
+                        <img class ="link-conatct" src="assets/images/mail.svg">
+                    </a>
+                             
+                    <a class="link" href="https://www.linkedin.com/in/shikha-kumari-6a6b18169/">
+                        <img class ="link-conatct" src="assets/images/linkedin.svg">
+                    </a>               
+               
+                    <a class="link" href="https://github.com/SHIKHASINGH1506">
+                        <img class ="link-conatct" src="assets/images/github.svg">
+                    </a>              
+               
+                    <a class="link" href="https://twitter.com/ShikhaK49176476">
+                        <img class ="link-conatct" src="assets/images/twitter.svg">
+                    </a>               
+               
+                    <a class="link" href="https://www.instagram.com/shikha.png/">
+                        <img class ="link-conatct" src="assets/images/instagram.svg">
+                    </a>              
+           </div>
     </footer>
-</body>
 
+</body>
 </html>
