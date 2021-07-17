@@ -41,6 +41,7 @@ body{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    max-width: 140px;
 }
 .link-secondary{
     border: 1px solid var(--primary-color);
