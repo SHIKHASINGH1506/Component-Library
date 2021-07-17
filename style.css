@@ -16,10 +16,19 @@ body{
 /**Container**/
 .container{
     padding: 0rem 1rem;
+    border-radius: 1em;
 }
 .container-center{
     max-width: 600px;
     margin: auto; 
+}
+.div-content{
+    margin: 2rem 0rem 4rem 0rem;
+}
+.container-pages{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 2em;
 }
 
 /** links **/
@@ -96,12 +105,20 @@ body{
 .section{
     padding: 2rem;
 }
+.section-pages{
+    margin: 0em;
+}
 .section h1{
     text-align: center;
     /* padding: 1rem; */
 }
 .ow{
     background-color: var(--light-grey);
+}
+.section .heading-project{
+    text-align: left;
+    padding-bottom: 1rem;
+    margin-block-start: 0em;
 }
 
 /** footer **/
