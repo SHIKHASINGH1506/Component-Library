@@ -5,6 +5,7 @@
     --dark-grey:#6B7280;
     --light-grey:#F3F4F6;
     --font-size: 1.44rem;
+    --font-size2: 2rem;
     --brnad-font-size: 1.7rem;
 }
 
@@ -145,4 +146,17 @@ body{
 }
 .link-conatct{
     width:1.5em;
+}
+
+ /* Media Query  */
+@media (max-width: 880px) and (min-width: 600px) {
+    .nav-brand {
+        font-size: var(--fontSize2);
+        padding-left: 0em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+    .nav-pills {
+        text-align: center;
+    }
 }
