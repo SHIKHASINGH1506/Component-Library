@@ -149,7 +149,7 @@ body{
 }
 
  /* Media Query  */
-@media (max-width: 880px) and (min-width: 600px) {
+@media (max-width: 480px) {
     .nav-brand {
         font-size: var(--fontSize2);
         padding-left: 0em;
