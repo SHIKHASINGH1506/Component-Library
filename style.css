@@ -64,7 +64,7 @@ body{
 
 /** nav **/
 .navigation{
-    padding: 1rem 4rem;
+    padding: 1rem;
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
