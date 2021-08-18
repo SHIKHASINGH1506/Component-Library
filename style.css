@@ -53,6 +53,9 @@ body{
 }
 
 /** List **/
+ul{
+    margin-block-start: 0;
+}
 .list-nobullets{
     list-style-type: none;
 }
@@ -64,7 +67,7 @@ body{
 
 /** nav **/
 .navigation{
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
@@ -125,7 +128,7 @@ body{
 /** footer **/
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     color: white;
     text-align: center;
 }
@@ -141,7 +144,6 @@ body{
     max-width: 25em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.4em;
 }
 .link-conatct{
     width:1.5em;
