@@ -93,8 +93,10 @@ ul{
 }
 .heading .heading-img{
     max-width: 350px;
+    max-height: 250px;
     display: block;
     margin: auto;
+    border-radius: 10rem;
 }
 .heading .heading-text{
     text-align: center;
